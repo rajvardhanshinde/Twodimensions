@@ -20,8 +20,8 @@
 
         <div class="d-flex  navbar-container">
             <div class="d-inline-flex p-2 navbar-container-part1" >
-                <div class="d-inline-flex p-2 hamburger "  >
-                    <img src="images/hamburger.png" alt="" onclick="sidebar()" >
+                <div class="d-inline-flex p-2 hamburger " onclick="sidebar()" >
+                    <img src="images/hamburger.png" alt=""  >
                 </div>
                 <div class="d-inline-flex p-2 logo " >
                     <img src="images/logo.jpeg" alt="" width="100%" >
@@ -55,19 +55,19 @@
         <div id="sidemenu_box"> <!-- side bar starts from here -->
             <div class="d-inline-flex  sidemenu "  >
                 <div class="d-flex flex-column">
-                    <div class="p-2 home">
+                    <div class=" home">
                         <div class="d-inline-flex p-2 home_container">
                             <img src="images/home.png" alt="alt"/>
                             <strong style=" margin-left: 20px">Home</strong> 
                         </div>          
                     </div>
-                    <div class="p-2 shorts">
+                    <div class=" shorts">
                         <div class="d-inline-flex p-2 home_container">
                             <img src="images/home.png" alt="alt"/>
                             <strong style=" margin-left: 20px">Shorts</strong> 
                         </div>
                     </div>
-                    <div class="p-2 subscription">
+                    <div class=" subscription">
                         <div class="d-inline-flex p-2 home_container">
                             <img src="images/home.png" alt="alt"/>
                             <strong style=" margin-left: 20px">Subscription</strong> 
@@ -75,30 +75,30 @@
                     </div>
                     <div class=" your_details">
                         <div class="p-2 shorts">
-                            <div class="d-inline-flex p-2 home_container">
+                            <div class="d-inline-flex  home_container">
 
                                 <strong>YOU ></strong> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">Your Channel</p> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">History</p> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">Your Blogs</p> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">Read Later</p> 
@@ -106,38 +106,38 @@
                         </div>
 
                         <div id="more_less" class="show_more">
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>      
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> ViewLess </p>       
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 subscription" onclick="view_more()">
+                        <div class="subscription" onclick="view_more()">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px"> View More 1</p>       <!-- more -->
@@ -145,25 +145,25 @@
                         </div> 
                     </div>
                     <div class=" your_details">
-                        <div class="p-2 shorts">
+                        <div class=" shorts">
                             <div class="d-inline-flex p-2 home_container">
 
                                 <strong>Subscriptions </strong> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">Your Channel</p> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">History</p> 
                             </div>
                         </div>
-                        <div class="p-2 subscription">
+                        <div class=" subscription">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px">Your Blogs</p> 
@@ -172,38 +172,38 @@
                         
 
                         <div id="more_less" class="show_more">
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>       
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> View More </p>      
                                 </div>
                             </div>
-                            <div class="p-2 subscription" >
+                            <div class=" subscription" >
                                 <div class="d-inline-flex p-2 home_container">
                                     <img src="images/home.png" alt="alt"/>
                                     <p style=" margin-left: 20px"> ViewLess </p>       
                                 </div>
                             </div>
                         </div>
-                        <div class="p-2 subscription" onclick="view_more()">
+                        <div class=" subscription" onclick="view_more()">
                             <div class="d-inline-flex p-2 home_container">
                                 <img src="images/home.png" alt="alt"/>
                                 <p style=" margin-left: 20px"> View More 1</p>       <!-- more -->
